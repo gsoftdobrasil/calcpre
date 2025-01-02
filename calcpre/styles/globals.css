@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
+  --background: #fffbf5;
   --foreground: #171717;
 }
 
@@ -18,4 +18,8 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.inputgsoft {
+  @apply w-full bg-[#f7f2eb] p-3 border transition duration-500 border-[#8f8879] rounded-[12px] text-[16px] font-medium placeholder-[#16140c] placeholder-opacity-60 leading-5 focus:ring-8 focus:ring-[#16140c24] outline-offset-2 focus:outline-2 outline-[#16140c] tracking-normal text-start text-ellipsis whitespace-nowrap;
 }
