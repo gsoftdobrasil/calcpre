@@ -2,8 +2,8 @@ import CalculatorForm from "../components/CalculatorForm";
 
 const Home = () => {
   return (
-    <div>
-      <CalculatorForm />
+    <div className="bg-white overscroll-none">
+      <CalculatorForm/>
     </div>
   );
 };
